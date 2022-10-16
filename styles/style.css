@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 113px;
+    background-image: linear-gradient(0.0deg, #e0e0e0 0%, #ffffff 100%);
+}
+
+.container {
+    margin: 0 auto;
+    width: 965px;
+}
+
+.main_header {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link_group {
+    width: 400px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    width: 100px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link:nth-child(2) {
+    border-left: 1px solid rgb(210, 206, 206);
+    border-bottom: 5px  goldenrod;
+}
+
+.link:nth-child(3) {
+    border-left: 1px solid rgb(210, 206, 206);
+    border-right: 1px solid rgb(210, 206, 206);
+}
+
+.link a{
+    margin-top: 1rem;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px #ffffff;
+    color: #545454;
+}
+
+.text_header {
+    margin-top: 42px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #565555;
+}
+
+.form_download {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;    
+}
+
+.form {
+    margin-left: 163px;
+    width: 449px;
+    height: 48px;
+    text-align: center;
+    background-image: linear-gradient(0.0deg, #ffffff 0%, #ffffff 91%, #e2dada 100%);
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+}
+
+.input{
+    display: none;
+}
+
+.form label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    margin-right: 10px;
+    float: right;
+    width: 96px;
+    height: 33px;
+    opacity: 0.58;
+    background-color: #969292;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.btn {
+    margin-left: 15px;
+    width: 209px;
+    height: 47px;
+    background-color:  #ffa400;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 23px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.gallery {
+    margin-top: 75px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 965px;
+}
+
+/* .row2 {
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row3 {
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.card {
+    width: 219px;
+    height: 281px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(0.0deg, rgba(0,0,0,0.09) 0%, rgba(253,254,255,0.09) 100%);
+    border: 1px solid rgba(0,0,0,0.15);
+    margin-bottom: 18px;
+}
+
+.card img{
+    margin-top: 8px;
+}
+
+.text_group {
+    margin-top: 13px;
+    width: 205px;
+    height: 22px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.text {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #979393;
+}
+
+.line {
+    width: 202px;
+    height: 1px;
+    opacity: 0.4;
+}
+
+.share_group {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: baseline;
+    width: 200px;
+}
+
+.share {
+    margin-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #9f9898;
+}
+
+.footer_text {
+    width: 965px;
+    height: 128px;
+    
+}
+
+.foot_text{
+    float: right;
+    margin-top: 62px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #8b8a8a;
+}
